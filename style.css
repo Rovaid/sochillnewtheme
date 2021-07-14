@@ -873,6 +873,10 @@ input {
     font-weight: 400;
     border: none !important;
 }
+.button2 {background-color: #008CBA !important;color: white !important;} /* Blue */
+.button3 {background-color: #4b6d7a !important;color: white !important;} /* Red */ 
+.button4 {background-color: #7a3b70 !important;color: white !important;} /* Gray */ 
+.button5 {background-color: #555555 !important;color: white !important;} /* Black */
 .btn i {
   font-size: 12px;
 }
