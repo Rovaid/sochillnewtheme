@@ -6290,3 +6290,35 @@ footer .footer-bottom .text-right li {
             transform: rotate(360deg);
   }
 }
+@media (min-width:320px)  { 
+  #websitelogo{
+    margin-right: 190px ;
+  height: 30px !important;
+} }
+@media (min-width:480px)  { 
+  #websitelogo{
+    margin-right: 170px ;
+    height: 40px !important;
+  }
+}
+@media (min-width:600px)  { 
+  #websitelogo{
+    margin-right: 180px ;
+    height: 40px !important;
+  }
+ }
+@media (min-width:801px)  {
+  #websitelogo{
+    height: 50px !important;
+  }
+ }
+@media (min-width:1025px) 
+{ 
+  #websitelogo{
+  height: 50px !important;
+} }
+@media (min-width:1281px)
+ { 
+  #websitelogo{
+  height: 50px !important;
+}}
