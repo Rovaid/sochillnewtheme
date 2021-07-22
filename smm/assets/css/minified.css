@@ -34633,7 +34633,6 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 
 .faq-menu ul li a::before {
 	position: absolute;
-	content: "\f105";
 	font-family: "Font Awesome 5 Free";
 	font-weight: 600;
 	left: 12px;
