@@ -1,13 +1,8 @@
 @charset "UTF-8";
 
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,500,500i,600,600i,700,700i|Open+Sans:400,400i,600,700&amp;display=swap");
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
  :root {
 	--blue: #007bff;
 	--indigo: #6610f2;
@@ -35,18 +30,17 @@
 	--breakpoint-md: 768px;
 	--breakpoint-lg: 992px;
 	--breakpoint-xl: 1200px;
-	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+
 }
 
 *,
 ::after,
 ::before {
 	box-sizing: border-box
-}
+}data
 
 html {
-	font-family: sans-serif;
+	font-family: "Montserrat";
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: transparent
@@ -67,7 +61,7 @@ section {
 
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-family: "Montserrat";
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
@@ -195,7 +189,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-family: "Montserrat";
 	font-size: 1em
 }
 
@@ -255,7 +249,7 @@ optgroup,
 select,
 textarea {
 	margin: 0;
-	font-family: inherit;
+	font-family: "Montserrat";
 	font-size: inherit;
 	line-height: inherit
 }
@@ -6439,7 +6433,7 @@ a.close.disabled {
 	z-index: 1070;
 	display: block;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1.5;
@@ -6564,7 +6558,7 @@ a.close.disabled {
 	z-index: 1060;
 	display: block;
 	max-width: 276px;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1.5;
@@ -10261,7 +10255,7 @@ button.bg-dark:hover {
 }
 
 .text-monospace {
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace!important
+	font-family: "Montserrat"
 }
 
 .text-justify {
@@ -16441,45 +16435,23 @@ a.text-dark:hover {
 	width: auto
 }
 
-@font-face {
-	font-family: "Font Awesome 5 Brands";
-	font-style: normal;
-	font-weight: 400;
-	font-display: auto;
-	src: url(../webfonts/fa-brands-400.eot);
-	src: url(../webfonts/fa-brands-400d41d.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.woff) format("woff"), url(../webfonts/fa-brands-400.ttf) format("truetype"), url(../webfonts/fa-brands-400.svg#fontawesome) format("svg")
-}
+
 
 .fab {
-	font-family: "Font Awesome 5 Brands"
+	font-family: "Montserrat"
 }
 
-@font-face {
-	font-family: "Font Awesome 5 Free";
-	font-style: normal;
-	font-weight: 400;
-	font-display: auto;
-	src: url(../webfonts/fa-regular-400.eot);
-	src: url(../webfonts/fa-regular-400d41d.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-regular-400.woff2) format("woff2"), url(../webfonts/fa-regular-400.woff) format("woff"), url(../webfonts/fa-regular-400.ttf) format("truetype"), url(../webfonts/fa-regular-400.svg#fontawesome) format("svg")
-}
+
 
 .far {
 	font-weight: 400
 }
 
-@font-face {
-	font-family: "Font Awesome 5 Free";
-	font-style: normal;
-	font-weight: 900;
-	font-display: auto;
-	src: url(../webfonts/fa-solid-900.eot);
-	src: url(../webfonts/fa-solid-900d41d.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-solid-900.woff2) format("woff2"), url(../webfonts/fa-solid-900.woff) format("woff"), url(../webfonts/fa-solid-900.ttf) format("truetype"), url(../webfonts/fa-solid-900.svg#fontawesome) format("svg")
-}
 
 .fa,
 .far,
 .fas {
-	font-family: "Font Awesome 5 Free"
+	font-family: "Montserrat"
 }
 
 .fa,
@@ -19479,7 +19451,7 @@ Copyright (c) 2013 Daniel Eden
 	cursor: pointer;
 	display: block;
 	float: left;
-	font-family: inherit;
+font-family: "Montserrat";
 	font-size: 14px;
 	font-weight: 400;
 	height: 42px;
@@ -20914,7 +20886,7 @@ body .ui-tooltip {
 }
 
 .ui-widget {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Montserrat";
 	font-size: 1em
 }
 
@@ -20926,7 +20898,7 @@ body .ui-tooltip {
 .ui-widget input,
 .ui-widget select,
 .ui-widget textarea {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Montserrat";
 	font-size: 1em
 }
 
@@ -22040,7 +22012,7 @@ button::-moz-focus-inner {
 	color: #fff;
 	font-style: normal;
 	font-size: 28px;
-	font-family: Arial, Baskerville, monospace
+	font-family: "Montserrat"
 }
 
 .mfp-close:focus,
@@ -22313,26 +22285,12 @@ screen and (max-height:300px) {
 	}
 }
 
-@font-face {
-	font-family: Flaticon;
-	src: url(Flaticon.eot);
-	src: url(Flaticon.eot?#iefix) format("embedded-opentype"), url(Flaticon.woff2) format("woff2"), url(Flaticon.woff) format("woff"), url(Flaticon.ttf) format("truetype"), url(Flaticon.svg#Flaticon) format("svg");
-	font-weight: 400;
-	font-style: normal
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	@font-face {
-		font-family: Flaticon;
-		src: url(Flaticon.svg#Flaticon) format("svg")
-	}
-}
 
 [class*=" flaticon-"]:after,
 [class*=" flaticon-"]:before,
 [class^=flaticon-]:after,
 [class^=flaticon-]:before {
-	font-family: Flaticon;
+	font-family: "Montserrat";
 	font-style: normal
 }
 
@@ -22573,7 +22531,7 @@ hr {
 }
 
 pre {
-	font-family: monospace, monospace;
+	font-family: "Montserrat";
 	font-size: 1em
 }
 
@@ -22595,7 +22553,7 @@ strong {
 code,
 kbd,
 samp {
-	font-family: monospace, monospace;
+	font-family: "Montserrat";
 	font-size: 1em
 }
 
@@ -22628,7 +22586,7 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit;
+font-family: "Montserrat";
 	font-size: 100%;
 	line-height: 1.15;
 	margin: 0
@@ -22740,8 +22698,8 @@ body {
 	color: #bdb9f0;
 	line-height: 28px;
 	overflow-x: hidden;
-	font-family: "Open Sans", sans-serif;
-	background: #202342
+	font-family: "Montserrat";
+	background: #18191d;
 }
 
 h1,
@@ -22750,11 +22708,11 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 700;
+
 	margin: 0;
 	line-height: 1.3;
 	color: #fff;
-	font-family: "Josefin Sans", sans-serif
+	font-family: "Montserrat";
 }
 
 h1 a,
@@ -22789,21 +22747,21 @@ h3 {
 	font-size: 28px;
 	line-height: 38px;
 	margin-top: -14px;
-	font-weight: 600
+
 }
 
 h4 {
 	font-size: 24px;
 	line-height: 28px;
 	margin-top: -9px;
-	font-weight: 600
+
 }
 
 h5 {
 	font-size: 20px;
 	line-height: 26px;
 	margin-top: -9px;
-	font-weight: 600
+
 }
 
 h6 {
@@ -23509,7 +23467,7 @@ input[type=submit] {
 
 .section-header .title {
 	margin-bottom: 18px;
-	font-weight: 700
+	font-weight: 500
 }
 
 .section-header .title:last-child {
@@ -23969,7 +23927,7 @@ input[type=submit] {
 
 .pricing-menu.cl-black li {
 	color: #bdb9f0;
-	font-family: "Josefin Sans", sans-serif
+	font-family: "Montserrat";
 }
 
 .pricing-menu.cl-black li::before {
@@ -23985,7 +23943,7 @@ input[type=submit] {
 
 .pricing-item-16 {
 	text-align: center;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	padding: 40px 15px;
 	border: 1px solid rgba(102, 124, 216, .2);
 	border-radius: 30px;
@@ -24086,7 +24044,7 @@ input[type=submit] {
 
 .price-tags {
 	line-height: 46px;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	padding: 0 28px;
 	-webkit-border-radius: 0 0 25px 25px;
 	-moz-border-radius: 0 0 25px 25px;
@@ -24305,7 +24263,7 @@ input[type=submit] {
 }
 
 .ff-heading {
-	font-family: "Josefin Sans", sans-serif
+	font-family: "Montserrat";
 }
 
 .light-blue-bg {
@@ -24549,16 +24507,14 @@ input[type=submit] {
 	display: block
 }
 
-.header-section .header-wrapper .logo a img {
-	width: 100%
-}
+
 
 @media (min-width:992px) {
 	.header-section .header-wrapper .menu {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-end;
-		margin-left: auto;
+		margin-left: 50px;
 		
 	}
 	.header-section .header-wrapper .menu li {
@@ -24566,7 +24522,7 @@ input[type=submit] {
 		position: relative
 	}
 	.header-section .header-wrapper .menu li a {
-		font-weight: 600;
+		font-weight: 500;
 		text-transform: capitalize;
 		color: #fff;
 		padding: 7px 10px
@@ -24729,7 +24685,7 @@ input[type=submit] {
 
 .header-section .header-wrapper .header-button {
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: uppercase;
 	padding: 11px 34px;
 	color: #fff;
@@ -24762,7 +24718,7 @@ input[type=submit] {
 }
 
 .header-section.active {
-	background: #42477f;
+	background: #121316;
 	top: 0
 }
 
@@ -24887,7 +24843,7 @@ input[type=submit] {
 .menu-item-has-children>a::after {
 	content: "\f107";
 	font-weight: 600;
-	font-family: "Font Awesome 5 Free";
+	font-family: "Montserrat";
 	margin-left: 5px
 }
 
@@ -25815,11 +25771,11 @@ input[type=submit] {
 
 .banner-shape-5 {
 	position: absolute;
-	left: calc(50% - 270px);
+	left: calc(10% - 270px);
 	right: 0;
 	top: 0;
 	text-align: right;
-	bottom: 250px
+	bottom: 60px
 }
 
 .banner-shape-5 img {
@@ -27814,7 +27770,7 @@ input[type=submit] {
 	padding-left: 58px;
 	padding-right: 58px;
 	border-radius: 30px;
-background-color: #42477f;
+background-color: #121316;
 
 }
 
@@ -28062,7 +28018,7 @@ background-color: #42477f;
 }
 
 .testimonial-wrapper .testimonial-area .testimonial-item .testimonial-content .title {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Montserrat";
 	text-transform: capitalize;
 	background: rgba(0, 0, 0, .102);
 	display: inline-block;
@@ -28083,7 +28039,7 @@ background-color: #42477f;
 	}
 	.testimonial-wrapper .testimonial-area .testimonial-item .testimonial-content .title {
 		font-size: 20px;
-		font-family: "Josefin Sans", sans-serif
+		font-family: "Montserrat";
 	}
 }
 
@@ -30026,7 +29982,7 @@ background-color: #42477f;
 	background: -ms-linear-gradient(0deg, #e2906e 0, #e83a99 100%);
 	box-shadow: 5.806px 23.287px 30.72px 1.28px rgba(232, 58, 153, .5);
 	color: #fff;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	font-size: 54px;
 	top: 0;
 	left: 0
@@ -30366,7 +30322,7 @@ background-color: #42477f;
 }
 
 .download-item .content .title {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Montserrat";
 	font-size: 18px;
 	margin: 0;
 	font-weight: 600;
@@ -30951,7 +30907,7 @@ div[class*=elem] img {
 	content: "\f00c";
 	left: 0;
 	top: 0;
-	font-family: "Font Awesome 5 Free";
+	font-family: "Montserrat";
 	font-weight: 600;
 	color: #fff;
 	font-size: 12px
@@ -31299,8 +31255,7 @@ div[class*=elem] img {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	
-	box-shadow: 3.871px 15.525px 68px 0 rgba(29, 40, 143, .5);
+	background: #121316;
 	padding: 40px 15px;
 	text-align: center;
 	margin: 0 auto 30px
@@ -32341,7 +32296,7 @@ div[class*=col]:nth-of-type(4n+4) .ex-item .ex-thumb {
 	background: #202342;
 	line-height: 50px;
 	font-size: 24px;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	text-transform: capitalize;
 	color: #fff;
 	top: 55px;
@@ -33396,7 +33351,7 @@ div[class*=col]:nth-of-type(3n+2) .pricing-item-4 .pricing-header::before {
 }
 
 .page-header-content .breadcrumb li a::after {
-	font-family: Flaticon;
+	font-family: "Montserrat";
 	font-weight: 500;
 	margin-left: 10px;
 	content: "\f104"
@@ -34626,14 +34581,15 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 
 .faq-menu ul li a {
-	padding: 8px 0;
+
 	color: #fff;
-	position: relative
+	position: relative;
+	border: 1px solid white;
 }
 
 .faq-menu ul li a::before {
 	position: absolute;
-	font-family: "Font Awesome 5 Free";
+	font-family: "Montserrat";
 	font-weight: 600;
 	left: 12px;
 	top: 10px;
@@ -34892,7 +34848,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 
 .countdown li p {
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	font-size: 24px;
 	line-height: 1.4;
 	color: #fff;
@@ -35177,7 +35133,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 .account-form .form-group label {
 	font-size: 18px;
 	font-weight: 600;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	color: #fff
 }
 
@@ -35197,10 +35153,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	background: -moz-linear-gradient(0deg, #e2906e 0, #e83a99 100%);
-	background: -webkit-linear-gradient(0deg, #e2906e 0, #e83a99 100%);
-	background: -ms-linear-gradient(0deg, #e2906e 0, #e83a99 100%);
-	box-shadow: 2.419px 9.703px 12.48px .52px rgba(232, 58, 153, .5);
+	background: #cf5b3d;
 	width: auto;
 	padding: 0 45px;
 	color: #fff;
@@ -35425,7 +35378,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 .cola-item .cola-content .cate {
 	color: #ff8a00;
 	font-weight: 600;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	text-transform: capitalize;
 	display: block;
 	margin-bottom: 27px
@@ -35448,7 +35401,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 .cola-item .cola-content ul li::before {
 	content: "\f00c";
 	font-weight: 600;
-	font-family: "Font Awesome 5 Free";
+	font-family: "Montserrat";
 	margin-right: 7px;
 	font-size: 14px
 }
@@ -35489,7 +35442,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 	font-size: 24px;
 	color: #1153fc;
 	text-transform: capitalize;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	text-decoration: underline;
 	font-weight: 700
 }
@@ -35507,7 +35460,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 
 .invest-range-area .main-amount::after {
 	content: "\f0d7";
-	font-family: "Font Awesome 5 Free";
+	font-family: "Montserrat";
 	font-weight: 600;
 	color: #dc3893;
 	bottom: -26px;
@@ -35639,7 +35592,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 .contact-form .form-group label {
 	font-size: 18px;
 	font-weight: 600;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	color: #fff
 }
 
@@ -35725,7 +35678,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 	width: calc(100% - 22px);
 	font-size: 16px;
 	font-weight: 400;
-	font-family: "Open Sans", sans-serif
+	font-family: "Montserrat";
 }
 
 .contact-form .form-group:last-child {
@@ -37609,14 +37562,15 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 
 .get-button {
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: capitalize;
 	padding: 11px 34px;
 	color: #fff;
 	border: 1px solid #d4cff4;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
-	border-radius: 25px
+	border-radius: 25px;
+	background:#cf5b3d;
 }
 
 .get-button i {
@@ -38283,7 +38237,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 
 .banner-content-18 p {
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	font-size: 24px;
 	line-height: 34px;
 	margin: 0;
@@ -38448,7 +38402,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 	font-size: 18px;
 	font-weight: 600;
 	color: #fff;
-	font-family: "Josefin Sans", sans-serif
+	font-family: "Montserrat";
 }
 
 .amazing-platform-item .amazing-platform-thumb {
@@ -38598,7 +38552,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 
 .client-item-2 .client-content p {
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	font-size: 24px;
 	line-height: 38px;
 	color: #fff
@@ -38863,7 +38817,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 
 .review-item-20 blockquote {
-	font-family: "Josefin Sans", sans-serif
+	font-family: "Montserrat";
 }
 
 .review-item-20.active,
@@ -38976,7 +38930,7 @@ div[class*=col]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 
 .pricing-item-20 .pricing-body {
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	background-color: #31377d;
 	box-shadow: 1.95px 15.881px 30px 0 rgba(47, 105, 252, .3);
 	margin-left: -10px;
@@ -39101,7 +39055,7 @@ div[class*=col]:nth-of-type(3n+3) .pricing-item-20 {
 
 .download-option-20 li span {
 	font-weight: 600;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Montserrat";
 	margin-top: 15px;
 	display: block
 }
@@ -39391,4 +39345,18 @@ div[class*=col]:nth-of-type(3n+3) .pricing-item-20 {
 
 .section--bg {
 	background: #31377d
+}
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: .4s;
+}
+[data-aos^=zoom][data-aos^=zoom] {
+    opacity: 0;
+    transition-property: opacity,transform;
 }
