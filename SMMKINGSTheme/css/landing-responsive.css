@@ -54,7 +54,15 @@
   .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
     border: none; }
   .header-area .right-content-area {
-    display: none; }
+position: unset; }
+.tablink{
+float: unset;
+margin-left: 30px;
+margin-top: 20px;
+}
+#socialDiv button{
+  width: 35%;
+}
   .navbar-area .navbar-collapse .navbar-nav .nav-item {
     line-height: 40px; }
   .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link,
@@ -194,6 +202,14 @@
     height: auto;
     color: #8e96a0;
     font-size: 14px; }
+    .tablink{
+      float: unset;
+      margin-left: 30px;
+      margin-top: 20px;
+      }
+      #socialDiv button{
+        width: 35%;
+      }
   .header-area.header-bg {
     background-position: center top; }
   .navbar-area.home-1 .logo .white {
@@ -204,7 +220,7 @@
   .navbar-area .container {
     position: relative; }
   .header-area .right-content-area {
-    display: none; }
+    position: unset; }
   .header-area {
     padding: 330px 0 210px 0; }
   .header-area .header-inner .title {
@@ -566,3 +582,16 @@
     font-weight: 600; }
   .blog-details-page-content-area .blog-details-content-area .entry-content blockquote {
     margin-left: 10px; } }
+
+#mobile{
+  display: none;
+}
+    @media only screen and (max-width: 991px) {
+
+      #res{
+        display: none;
+      }
+      #mobile{
+        display: block;
+      }
+    }
