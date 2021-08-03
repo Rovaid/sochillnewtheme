@@ -595,3 +595,27 @@ margin-top: 20px;
         display: block;
       }
     }
+
+    .socialMobile{
+      display: none;
+    }
+        @media only screen and (max-width: 991px) {
+    
+          .socialdesktop{
+            display: none;
+          }
+          .socialMobile{
+            display: block;
+          }
+        }
+
+        @media only screen and (max-width: 600px) {
+    
+      
+          #imgtop{
+           height: 600px;
+          }
+          h2{
+            font-size: 30px !important;
+          }
+        }
